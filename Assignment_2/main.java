@@ -45,7 +45,7 @@ class publication {
 	void read_publication() {				
 				
 		System.out.print("title: ");
-		title=sc.next();
+		title=sc.nextLine();
 		System.out.print("price:  ");
 		price=sc.nextInt();
 		System.out.print("copies: ");
