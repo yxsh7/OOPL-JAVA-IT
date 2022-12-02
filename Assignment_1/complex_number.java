@@ -1,4 +1,4 @@
-// S132 Yash Kamthe
+// SI32 Yash Kamthe
 /*
 Design a class complex with data members for real and imaginary part. Provide default and Parameterized constructors.
 Write a program to perform arithmetic operations of two complex numbers 
