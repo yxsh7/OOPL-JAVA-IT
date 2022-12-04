@@ -47,7 +47,7 @@ class Complex
 	void multiplication(Complex s1,Complex s2)
 	{
 	Complex s5 = new Complex();
-	s5.real = s1.real+s2.real - s1.img*s2.img;
+	s5.real = s1.real*s2.real - s1.img*s2.img;
 	s5.img = s1.real*s2.img + s1.img*s2.real;
 	System.out.println("Multiplication is: "+s5.real+"+"+s5.img+"i");
 	}
@@ -67,7 +67,9 @@ public class complex_number
 	public static void main(String arg[])	
 	{
 	
+	System.out.println("\nFirst Complex Number: ");
 	Complex s1 = new Complex(4,9);
+	System.out.println("\nSecond Complex Number: ");
 	Complex s2 = new Complex(12,5);
 	s1.display();
 	s2.display();
