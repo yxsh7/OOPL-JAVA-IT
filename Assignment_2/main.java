@@ -90,7 +90,7 @@ class book extends publication {
 
 	void read_book() {			
 		read_publication();
-		System.out.print("enter author book: ");
+		System.out.print("enter Author: ");
 		Author=sc.next();
 	}
 
